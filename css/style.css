@@ -42,7 +42,7 @@ h1{
     margin-left: 200px;
 }
  .header-bottom {
-    height: 1000px;
+    min-height: 1000px;
     background-image: url(../img/jumbo.png)
       
 }
@@ -58,6 +58,7 @@ h1{
     font-size: 70px;
     font-weight: bold;
     margin-top: 200px;
+    color: white;
     
 
 }
@@ -67,12 +68,10 @@ h1{
     margin-bottom: 30px;
     font-size: 25px;
     padding: 20px;
+    color: white;
     
 }
-h2, p{
-    color: white;
-}
- 
+
 .choise-option{
     display: flex;
     justify-content: center;
@@ -80,6 +79,24 @@ h2, p{
 }
 
 /* main */
+.start-information{
+    display: flex;
+    justify-content: center;
+}
+.start-information h3{
+    font-size: 45px;
+    padding-top: 20px;
+    margin: 20px 0 0 25px;
+}
+.start-information img{
+    margin-top: 20px;
+}
+.information p{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-top: 52px;
+    
+}
 
 /* nav */
 .container .title ul{display: flex;
