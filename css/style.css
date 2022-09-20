@@ -38,25 +38,16 @@ h1{
     font-size: 25px;
     padding-top: 10px;
 }
-ul li{
-    list-style: none;
-    margin-left: 45px;
-
-}
-ul a{
-    text-decoration: none;
-    color: white;
-    
-
-}
 .entry{ margin-top: 60px;
     margin-left: 200px;
-    
+}
+.container .header-bottom{
+    background-image: url(img/);
 }
 /* main */
 
 /* nav */
-  .container .title ul{display: flex;
+.container .title ul{display: flex;
     
 }
 .title nav{display: flex;
@@ -69,6 +60,17 @@ ul{
     margin-top: 10px;
 }
 
+ul li{
+    list-style: none;
+    margin-left: 45px;
+
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
 /* footer */
 /* button */
 .first-button{
@@ -76,3 +78,4 @@ ul{
     border-radius:15px;
     border:none;
 }
+
