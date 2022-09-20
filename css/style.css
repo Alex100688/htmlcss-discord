@@ -23,12 +23,13 @@ font-family: 'Roboto', sans-serif;
     
     margin-top: 40px;
     color: white;
-    padding-bottom: 30px;
+   
 }
 .fa-brands{
     vertical-align: middle;
     margin-left: 200px; 
     font-size: 40px;
+    padding-bottom: 60px;
     
 }
 h1{
@@ -37,24 +38,41 @@ h1{
     font-size: 25px;
     padding-top: 10px;
 }
-li{
+ul li{
     list-style: none;
     margin-left: 45px;
 
 }
-a{
+ul a{
     text-decoration: none;
     color: white;
     
 
 }
+.entry{ margin-top: 60px;
+    margin-left: 200px;
+    
+}
 /* main */
 
 /* nav */
-  .title ul{display: flex;
+  .container .title ul{display: flex;
+    
+}
+.title nav{display: flex;
     align-items: center;
     
-
+}
+ul{
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 /* footer */
+/* button */
+.first-button{
+    padding: 8px 30px;
+    border-radius:15px;
+    border:none;
+}
