@@ -209,6 +209,40 @@ ul a{
     display: flex;
     justify-content: space-evenly;
 }
+h4, span{
+    color:#7289da;
+    margin-top: 100px;
+}
+h4{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+ span{
+    font-size: 20px;
+}
+.icon-footer img, .italy{
+    width: 25px;
+}
+.italy{
+    margin-left: 8px;
+    color: white;
+    font-weight: normal;
+}
+
+
+.social-footer .fa-brands{
+    font-size: 22px;
+    color: white;
+    
+    
+}
+.social-footer{
+    display: flex;
+    justify-content: ;
+}
+
+
 /* button */
 .fa-solid {
     margin-right: 10px;
