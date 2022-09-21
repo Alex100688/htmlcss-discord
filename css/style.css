@@ -12,6 +12,10 @@ font-family: 'Roboto', sans-serif;
     max-width: 1400px;
     margin: auto;
 }
+.small-container{
+    max-width: 1200px;
+    margin: auto;
+}
 /* header */
 .header-top .container {
     background-color:#255ee9 ;   
@@ -161,7 +165,15 @@ margin-top: 200px;
     display: flex;
     justify-content: center;
 }
-
+.adventure-information{
+    background-image: url(../img/stars.svg);
+    background-position-x: 150px;
+}
+ 
+.mac-button{
+    display: flex;
+    justify-content: center;
+}
 /* nav */
 .container .title ul{display: flex;
     
@@ -188,13 +200,27 @@ ul a{
 
 
 /* footer */
+.top-footer{
+    background-color: #23272a;
+    width: 100%;
+    margin-top: 200px;
+}
+.option-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
 /* button */
+.fa-solid {
+    margin-right: 10px;
+}
+
 .first-button{
     padding: 8px 30px;
     border-radius:15px;
     border:none;
 }
-.second-button, .third-button{
+
+.second-button, .third-button, .fourth-button{
     padding: 20px 30px;
     border-radius: 30px;
     font-size: 20px;
@@ -202,7 +228,13 @@ ul a{
 }
 .third-button{
     background-color: black;
-    color: white;
     margin-left: 25px;
 }
+.third-button, .fourth-button{
+    color: white;
+}
 
+.fourth-button{
+    margin-top: 40px;
+    background-color: #7289da;
+}
